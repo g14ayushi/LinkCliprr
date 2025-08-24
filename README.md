@@ -27,23 +27,18 @@ This application is deployed across the following platforms:
 
 1. **Register and Login Functionality** – Secure user authentication to manage your shortened links.  
 2. **Create Short URL** – Provide your long URL and get a shortened version instantly. 
-<br>
-<br>
-![Create Short Urls](images/create_url.png)
-<br>
-<br> 
+    <br>
+    ![Create Short Urls](images/create_url.png)
+    <br>
 3. **Redirect Functionality** – Short URLs redirect seamlessly to the original destination.  
 4. **Total Clicks (Date-wise)** – Track how many times your short URLs have been accessed.  
-<br>
-![Clicks Analytics](images/total_clicks.png) 
-<br>
-<br>
+    <br>
+    ![Clicks Analytics](images/total_clicks.png) 
+    <br>
 5. **URL-specific Details and Analytics** – Get in-depth insights for each short URL.  
-<br>
-<br>
-![URL specific analytics](images/url_specific_analytics.png)
-<br>
-<br>
+    <br>
+    ![URL specific analytics](images/url_specific_analytics.png)
+    <br>
 6. **Logout Functionality** – End your session safely with a logout option.  
 
 ---
