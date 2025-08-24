@@ -11,7 +11,7 @@ This application is deployed across the following platforms:
 
 - **Render** (Backend Deployment)  
   - The backend (Spring Boot server) is hosted on [Render](https://render.com).  
-  - ⚠️ **Note:** Since the backend uses Render’s free plan, the server may take a few minutes (or more) to start up if it hasn’t been accessed recently (cold start).  
+  - **Note:** Since the backend uses Render’s free plan, the server may take a few minutes (or more) to start up if it hasn’t been accessed recently (cold start).  
 
 - **Netlify** (Frontend Deployment)  
   - The React + Vite frontend is deployed on [Netlify](https://www.netlify.com).  
@@ -29,19 +29,19 @@ This application is deployed across the following platforms:
 2. **Create Short URL** – Provide your long URL and get a shortened version instantly. 
 <br>
 <br>
-![Create Short Urls](./images/create_url.png)
+![Create Short Urls](images/create_url.png)
 <br>
 <br> 
 3. **Redirect Functionality** – Short URLs redirect seamlessly to the original destination.  
 4. **Total Clicks (Date-wise)** – Track how many times your short URLs have been accessed.  
 <br>
-![Clicks Analytics](./images/total_clicks.png) 
+![Clicks Analytics](images/total_clicks.png) 
 <br>
 <br>
 5. **URL-specific Details and Analytics** – Get in-depth insights for each short URL.  
 <br>
 <br>
-![URL specific analytics](./images/url_specific_analytics.png)
+![URL specific analytics](images/url_specific_analytics.png)
 <br>
 <br>
 6. **Logout Functionality** – End your session safely with a logout option.  
@@ -195,4 +195,4 @@ Once the backend starts, Hibernate will automatically create necessary tables in
 
 ---
 
-✅ Now you have the backend, frontend, and database set up locally. You can access the application by running both backend (`localhost:8080`) and frontend (`localhost:5173`).
+Now you have the backend, frontend, and database set up locally. You can access the application by running both backend (`localhost:8080`) and frontend (`localhost:5173`).
