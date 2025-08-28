@@ -13,7 +13,13 @@ const LandingPage = () => {
 
 
     const navigate = useNavigate();
+    
     const dashBoardNavigateHandler = () => {
+      if (token) {
+        navigate('/dashboard');
+      } else {
+        navigate('/login');
+      }
     };
 
   return (
